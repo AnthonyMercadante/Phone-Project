@@ -6,6 +6,7 @@ public class ToggleObjects : MonoBehaviour
     // Assign your GameObjects in the Unity Editor
     public GameObject objectToDeactivate;
     public GameObject objectToActivate;
+    public GameObject objectToActivate2; // Added third GameObject
 
     // Time in seconds before switching
     private float toggleInterval = 30.0f;
@@ -26,12 +27,13 @@ public class ToggleObjects : MonoBehaviour
             // Toggle the objects
             objectToDeactivate.SetActive(false);
             objectToActivate.SetActive(true);
+            objectToActivate2.SetActive(false); // Deactivate the third object
 
-            // Swap the objects for the next iteration
+            // Rotate through the objects for the next iteration
             GameObject temp = objectToDeactivate;
             objectToDeactivate = objectToActivate;
-            objectToActivate = temp;
+            objectToActivate = objectToActivate2;
+            objectToActivate2 = temp;
         }
     }
 }
-

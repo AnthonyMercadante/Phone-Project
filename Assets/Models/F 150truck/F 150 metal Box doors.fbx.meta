@@ -1,0 +1,617 @@
+fileFormatVersion: 2
+guid: 867908007b972b646ab09f7ee2bd5255
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blinkers_stick_on_dashboard
+    second: {fileID: 2100000, guid: 180d3cc63cd7c7749b57b4110e946b03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brakes
+    second: {fileID: 2100000, guid: 614f08bba6063524893a058df23222f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bumper_complement_part_2_middle
+    second: {fileID: 2100000, guid: 8b9ecb720dde9ed418e4920f0e5d0365, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dashboards
+    second: {fileID: 2100000, guid: 91afd9429f54dca41823662bdc759e3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Differential1
+    second: {fileID: 2100000, guid: 39dc2d0ef7eab024f8ae4ee3c8b1257a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_hinge_texture
+    second: {fileID: 2100000, guid: 970306a84a39798409718bb2883b9e50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exhaust1
+    second: {fileID: 2100000, guid: 073b97c650eaefa45b8cc2742f545290, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fog_lights
+    second: {instanceID: 0}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front_bumper1
+    second: {fileID: 2100000, guid: 6eb019d1e9a70544a9da0891ac80ed66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front_seats_support
+    second: {fileID: 2100000, guid: a6787d4925b2a8244818ab567648cb87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frontal_2_light
+    second: {fileID: 2100000, guid: 802299ad1db787b4096d1e4eba127f50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frontal_Light_bulbs
+    second: {fileID: 2100000, guid: 1da775c00ba7ab04b9405ed0d74be5a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frontal_body_frame
+    second: {fileID: 2100000, guid: c0e1c71379c21b64896af1766d6f821d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frontal_bumper_com_part_behaind
+    second: {fileID: 2100000, guid: bb5e1561736f5b141a430a3888ff595b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frontal_driver_window
+    second: {fileID: 2100000, guid: e7c6f1e5b5d2afc4fba7f3d0941a2822, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frontal_lights_frame
+    second: {fileID: 2100000, guid: 6cdafaf6262c5104784d6867594378bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frontal_lights_plate_sp
+    second: {fileID: 2100000, guid: 57766ec8b7359494ea92c24f9bee0fb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frontal_lower_bumper
+    second: {fileID: 2100000, guid: d6dc045d4f1cb2f408cfe48127483651, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frontal_towing_hooks
+    second: {fileID: 2100000, guid: 10e0df89303c6a24391fdca5aac371dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill_material
+    second: {fileID: 2100000, guid: 00707746a7a34b142a2bc56d219c3324, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill_plates
+    second: {fileID: 2100000, guid: bd8c62cfea354804591a0ed901fa72b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Guard_supports
+    second: {fileID: 2100000, guid: 63a65d17bde66c643ae92ef4f0a2e895, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hood_supports
+    second: {fileID: 2100000, guid: d6a76bf5dc9e6d44cb5dff7191d3b2be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Intercooler
+    second: {fileID: 2100000, guid: 337ac4027d4009d4ba65f37a52356ed9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Intercooler_int
+    second: {fileID: 2100000, guid: ea4581ed27921514e834553c40622ec9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior_mirror_frame
+    second: {fileID: 2100000, guid: 384e9d3a2c15a7648a7dece731da2ea8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior_mirror_holder1
+    second: {fileID: 2100000, guid: be0b2976fc06ec44fb7e299c5167196f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior_pilars
+    second: {fileID: 2100000, guid: 21b97b95606a1bd41ab043a00bae4d8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior_rear_box_lights
+    second: {fileID: 2100000, guid: 9cd44f2bd25b5d94d969d0c67732b98e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior_rear_doors
+    second: {fileID: 2100000, guid: cdbe3b6d3e0e7b141b67be203913b308, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior_stick_shift_frame
+    second: {fileID: 2100000, guid: 0d6a7c271bb485a4a850b0dbfdbc962a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light_frontal_plate
+    second: {fileID: 2100000, guid: 2027cd52261886f4d80f6246585f4bd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mirror_blinkers
+    second: {fileID: 2100000, guid: 654d16308ca55704fb005687532cfa7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mirrors
+    second: {fileID: 2100000, guid: e7c6f1e5b5d2afc4fba7f3d0941a2822, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mirrors_frame
+    second: {fileID: 2100000, guid: 2b758096adfa6f448b4337ca180a2018, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic_rear_lights
+    second: {fileID: 2100000, guid: 75c25a4f7ab6cb949b196f725db5e8b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_Box
+    second: {fileID: 2100000, guid: c8a8b0be19730084ea8897d240d62421, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_box_door
+    second: {fileID: 2100000, guid: 67c73b080a5221145a0a358ea5104bb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_box_feet_base
+    second: {fileID: 2100000, guid: 60a0b8e0f8636704a9a80c6f28d1685c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_box_tool_holders
+    second: {fileID: 2100000, guid: 0cfc9017b7b38b34a9639c4cde872dfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_m_Brake_light
+    second: {fileID: 2100000, guid: 3ceb9ab4046bae04a8baba957eaf0dd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_plate
+    second: {fileID: 2100000, guid: 7f054ec0138f8cc499f88db9bc58372e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_seat
+    second: {fileID: 2100000, guid: 559c9ade13f32d44da39f5f73c4c4be3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_seats_supports
+    second: {fileID: 2100000, guid: 13743aecabcaa154da8904563383d994, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_stop_lights
+    second: {fileID: 2100000, guid: 0524f56dfe4bbca4591edad78f2dfc33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_window_middle
+    second: {fileID: 2100000, guid: e7c6f1e5b5d2afc4fba7f3d0941a2822, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_window_passanger_driver
+    second: {fileID: 2100000, guid: e7c6f1e5b5d2afc4fba7f3d0941a2822, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rim_locks_secure_bh
+    second: {fileID: 2100000, guid: a9a72ab76044392479302c4aa49b0db2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rims_complement_parts
+    second: {fileID: 2100000, guid: 0b34035015e24db47983d045429c0f64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rims_complete
+    second: {fileID: 2100000, guid: 8e253ec4b4502ec4c9206409ed6e045d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Side_light_1
+    second: {fileID: 2100000, guid: 2de9d7a1e4817994b975e28c903165d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Side_light_3
+    second: {fileID: 2100000, guid: 32ec9aa11b51ad24f8bf7c6081f0e1f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stering_wheel
+    second: {fileID: 2100000, guid: ebbbb5874c85bb34eb2feaf664283fb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stick_shift1
+    second: {fileID: 2100000, guid: 6400d800a7953ae449faf6ec11d9e625, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suspension_1
+    second: {fileID: 2100000, guid: 455b817a91fb29b4f88a6fbf4a81a25f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suspension_part_3
+    second: {fileID: 2100000, guid: dacc98b427eca664a88e48d32a873dfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Transmission__line
+    second: {fileID: 2100000, guid: f16f44405f54a1e4996bc3e795e3f43d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tyres
+    second: {fileID: 2100000, guid: 0cc4b2be30e1d9e4a821fe60454f956b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windshiled
+    second: {fileID: 2100000, guid: f7c580d8631dd7b4bb28878faeeac974, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wipper2
+    second: {fileID: 2100000, guid: 550a75fc6bcb6a54e80a82dd6e704466, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: air_filter
+    second: {fileID: 2100000, guid: db46c697417283347bb914eef4b90a42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: air_filter_engine_tube
+    second: {fileID: 2100000, guid: ca8613edca938074293453e0cd2db100, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brake_disks
+    second: {fileID: 2100000, guid: 33af81bb50e5b164f84f49c6ad286930, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bumper_complement_parts
+    second: {fileID: 2100000, guid: ae9738317fb9d3344835856728c2fe0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: compressor
+    second: {fileID: 2100000, guid: a5a42580ed634dc4a8237178dd493364, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_handles
+    second: {fileID: 2100000, guid: 52ed248170fe3cc4f8ded478baaea7c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_locks
+    second: {fileID: 2100000, guid: f160ffff67d716641a459c0ff5cb8cbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: engine_bay_base1
+    second: {fileID: 2100000, guid: d663a5df18b752243a1eed8fc832ae6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: engine_cables
+    second: {fileID: 2100000, guid: e53db99bc4beff848bd8bf917a28c6e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: engine_frame_ext
+    second: {fileID: 2100000, guid: ecd156edee4f76a48b30f3089e26034e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: engine_parts
+    second: {fileID: 2100000, guid: 09f43973cca01904fbe291fde88eb1ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front_lights_glass
+    second: {fileID: 2100000, guid: e7c6f1e5b5d2afc4fba7f3d0941a2822, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front_seats
+    second: {fileID: 2100000, guid: 518d93c7a812bad42866b6fed88ee84e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frontal_blinkers
+    second: {fileID: 2100000, guid: 8526d485dfdb78349adf791194f696cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frontal_inside_frame
+    second: {fileID: 2100000, guid: 67e8e719c2bac504693b89cad8bd75f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frontal_passanger_windows
+    second: {fileID: 2100000, guid: e7c6f1e5b5d2afc4fba7f3d0941a2822, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: guard_plastic_2
+    second: {fileID: 2100000, guid: ac567ac25659e734583335de3f7376aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: guard_sides
+    second: {fileID: 2100000, guid: 16ee960789c75ae41a60779e625e41ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: guard_wheel_cover
+    second: {fileID: 2100000, guid: b8e1b1d715e9a314caaec40e097c8ca5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: inside_grill_or_intercooler
+    second: {fileID: 2100000, guid: b49f34785a6b9ab489813405a89e8910, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: interior_box_lights_frame
+    second: {fileID: 2100000, guid: 80fdf31d8c6969c4cab4a12487ee1980, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: interior_frame
+    second: {fileID: 2100000, guid: 384e9d3a2c15a7648a7dece731da2ea8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: interior_frn_doors
+    second: {fileID: 2100000, guid: 640ad846e49636845a8c785ecc33a33b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_guards_tops
+    second: {fileID: 2100000, guid: 136e71cf1410cc74db59bd613d8658f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rear_blinkers_lights
+    second: {fileID: 2100000, guid: 05b81a417cbb7a540a3f1b9df5ee6f9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rear_box_door_opener
+    second: {fileID: 2100000, guid: 8ba02ee53486a0f49aae6483665fe162, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rear_box_holders
+    second: {fileID: 2100000, guid: c6299819fd0740641a5c6468a4864670, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rear_inside_frame
+    second: {fileID: 2100000, guid: 8bc5f5b205937514e9fed7c05a0a96cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rear_lights_cover
+    second: {fileID: 2100000, guid: 956f9726e6858ec40b0ab95eaca5a4c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rear_passanger_windows
+    second: {fileID: 2100000, guid: e7c6f1e5b5d2afc4fba7f3d0941a2822, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rear_warning_light
+    second: {fileID: 2100000, guid: 6060879892b062f4f8fa9f3721a7698f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rear_window_glass
+    second: {fileID: 2100000, guid: e7c6f1e5b5d2afc4fba7f3d0941a2822, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: reverse_rear_lights
+    second: {fileID: 2100000, guid: 850592fb58567894ba744ab5ca088a60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rim_covers
+    second: {fileID: 2100000, guid: bf3ae8f0a485de1439937676f7169f17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rims
+    second: {fileID: 2100000, guid: c74fec773f2e1a744916f212b7c56cee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: side_light_2
+    second: {fileID: 2100000, guid: a564ab95a16a7014ba18407d12d961a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: side_light_4
+    second: {fileID: 2100000, guid: ee373a30de8633c45ae663ae39ae4cfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suspension_part_2
+    second: {fileID: 2100000, guid: 38b6b923c2152a94c8023d31978265cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: underneath_plate_frame
+    second: {fileID: 2100000, guid: 72aa82c71b010524084e185e4f3272b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: warning_light_plate_circle
+    second: {fileID: 2100000, guid: 56dcd2df92e23994b99a2eb3c7602283, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheel_locks
+    second: {fileID: 2100000, guid: 1825445b3a58b4d4482ee5e1dc840b10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: whole_wipper
+    second: {fileID: 2100000, guid: fc3a7ad059b972848a83954aad925089, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windshield_plastic_cvr_below
+    second: {fileID: 2100000, guid: f7c580d8631dd7b4bb28878faeeac974, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
