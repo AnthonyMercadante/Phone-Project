@@ -32,7 +32,7 @@ MonoBehaviour:
   m_simpleFluidAnisotropy: 2
   m_simpleFluidMinScale: 0.2
   m_simpleFluidMaxScale: 1
-  m_maxParticles: 30000
+  m_maxParticles: 120000
   m_maxDiffuse: 0
   m_maxNeighbors: 200
   m_maxContacts: 6
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_dynamicFriction: 0.1
   m_particleFriction: 0.1
   m_restitution: 0
-  m_adhesion: 0
+  m_adhesion: 0.02
   m_sleepThreshold: 0
   m_maxSpeed: 3.4028235e+38
   m_maxAcceleration: 3.4028235e+38
@@ -58,9 +58,9 @@ MonoBehaviour:
   m_drag: 0
   m_lift: 0
   m_fluid: 1
-  m_cohesion: 0.5
+  m_cohesion: 0.25
   m_surfaceTension: 0.01
-  m_viscosity: 0
+  m_viscosity: 0.5
   m_vorticityConfinement: 0
   m_anisotropyScale: 2
   m_anisotropyMin: 0.2
