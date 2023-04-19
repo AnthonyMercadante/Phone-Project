@@ -7,6 +7,7 @@ public class ToggleObjects : MonoBehaviour
     public GameObject objectToDeactivate;
     public GameObject objectToActivate;
     public GameObject objectToActivate2; // Added third GameObject
+    public GameObject objectToActivate3; // Added fourth GameObject
 
     // Time in seconds before switching
     private float toggleInterval = 30.0f;
@@ -27,13 +28,29 @@ public class ToggleObjects : MonoBehaviour
             // Toggle the objects
             objectToDeactivate.SetActive(false);
             objectToActivate.SetActive(true);
-            objectToActivate2.SetActive(false); // Deactivate the third object
 
-            // Rotate through the objects for the next iteration
-            GameObject temp = objectToDeactivate;
-            objectToDeactivate = objectToActivate;
-            objectToActivate = objectToActivate2;
-            objectToActivate2 = temp;
+            // Wait for the specified interval
+            yield return new WaitForSeconds(toggleInterval);
+
+            // Toggle the objects again
+            objectToActivate.SetActive(false);
+            objectToActivate2.SetActive(true);
+
+            // Wait for the specified interval
+            yield return new WaitForSeconds(toggleInterval);
+
+            // Toggle the objects again
+            objectToActivate2.SetActive(false);
+            objectToActivate3.SetActive(true);
+
+            // Wait for the specified interval
+            yield return new WaitForSeconds(toggleInterval);
+
+            // Toggle the objects again
+            objectToActivate3.SetActive(false);
+            objectToDeactivate.SetActive(true);
+
+            // No need to swap GameObject references, as they will be cycled in the same order every time.
         }
     }
 }
