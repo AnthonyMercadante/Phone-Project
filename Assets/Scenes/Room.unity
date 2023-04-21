@@ -5755,7 +5755,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1784614304}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &774425849
 BoxCollider:
@@ -6377,7 +6377,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980280756}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff4c1e07909b14c5ea070e83353bebc5, type: 3}
   m_Name: 
@@ -6453,7 +6453,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980280756}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 10
   m_Drag: 0
   m_AngularDrag: 0.01
   m_UseGravity: 1
@@ -6468,7 +6468,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980280756}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddbf4d1626d45ad45ad486357a73635c, type: 3}
   m_Name: 
@@ -11160,7 +11160,7 @@ GameObject:
   - component: {fileID: 1402676002}
   - component: {fileID: 1402676003}
   m_Layer: 0
-  m_Name: Spawn Point (1)
+  m_Name: Spawn Point David
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11194,7 +11194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 8514581143945203631, guid: 6b8d0293ea169ee46b82aecb21d2c1b3, type: 3}
-  spawnInterval: 0.01
+  spawnInterval: 0.04
 --- !u!1 &1449515743 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8621484709302217264, guid: 923e73cc9b504e74a98b5ce340a9941e, type: 3}
@@ -11469,7 +11469,7 @@ GameObject:
   - component: {fileID: 1508494222}
   - component: {fileID: 1508494223}
   m_Layer: 0
-  m_Name: Spawn Point
+  m_Name: Spawn Point Anthony
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11503,7 +11503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 2976921768738808572, guid: 0f84c86259fb4164fa4207cd4b25dfae, type: 3}
-  spawnInterval: 0.01
+  spawnInterval: 0.04
 --- !u!1 &1736358046
 GameObject:
   m_ObjectHideFlags: 0
@@ -11696,7 +11696,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1784614304
 Transform:
   m_ObjectHideFlags: 0
@@ -11712,6 +11712,7 @@ Transform:
   - {fileID: 173257327129352329}
   - {fileID: 1508494222}
   - {fileID: 1402676002}
+  - {fileID: 1836669023}
   - {fileID: 774425848}
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -11785,6 +11786,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50727fb552f09d84fbbb274bb86a2e2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1836669022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1836669023}
+  - component: {fileID: 1836669024}
+  m_Layer: 0
+  m_Name: Spawn Point Jackie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1836669023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836669022}
+  m_LocalRotation: {x: -0, y: 0.88179135, z: -0, w: 0.47163972}
+  m_LocalPosition: {x: -16.04, y: 5.53, z: -23.621}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1784614304}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 123.718, z: 0}
+--- !u!114 &1836669024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836669022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c05bdd26f6789b4bb91e2fee06b8a5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToSpawn: {fileID: 6324436651511459595, guid: cc56855a8efea0e4db6bbebb94e8ab30, type: 3}
+  spawnInterval: 0.02
 --- !u!1001 &1846900397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12149,7 +12196,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2116891240
 Transform:
   m_ObjectHideFlags: 0
